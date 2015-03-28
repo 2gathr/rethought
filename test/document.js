@@ -4,8 +4,8 @@ let assert = require('assert');
 require('co-mocha');
 
 let config = require('../test/config');
-let r = require('../index')(config.rethinkdb);
-let Document = require('../lib/document');
+let r = require('../')(config.rethinkdb);
+let Document = r.Document;
 
 class Some  extends Document {}
 

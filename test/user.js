@@ -4,7 +4,7 @@ let assert = require('assert');
 require('co-mocha');
 
 let config = require('../test/config');
-let r = require('../index')(config.rethinkdb);
+let r = require('../')(config.rethinkdb);
 let User = require('../examples/models/user.js');
 
 describe('User Model', function(){

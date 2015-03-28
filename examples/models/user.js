@@ -1,7 +1,7 @@
 'use strict';
 
-let r = require('../../index')();
-let Document = require('../../lib/document');
+let r = require('../../')();
+let Document = r.Document;
 let bcrypt = require('co-bcryptjs');
 
 class User extends Document {

@@ -1,5 +1,13 @@
 'use strict';
 
-let r = require('./lib/rethinkdb');
+let dash = require('./lib/rethinkdb');
 
-module.exports = r;
+let r;
+
+module.exports = function(options){
+  if (!r) {
+    r = dash(options);
+    r.Document = require('./lib/document');
+  }
+  return r;
+};
