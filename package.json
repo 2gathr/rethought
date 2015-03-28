@@ -1,5 +1,5 @@
 {
-  "name": "co-rethink-document",
+  "name": "rethought",
   "version": "0.1.0",
   "description": "A Document class for RethinkDB making use of generators",
   "main": "index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:2gathr/co-rethink-document.git"
+    "url": "git@github.com:artiifix/rethought.git"
   },
   "author": "Robert Schütz <rschuetz17@gmail.com>",
   "license": "MIT",
