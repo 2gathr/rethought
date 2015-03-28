@@ -1,0 +1,7 @@
+{
+  "rethinkdb": {
+    "host": "localhost",
+    "port": 28015,
+    "db": "co_rethink_document"
+  }
+}

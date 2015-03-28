@@ -1,0 +1,27 @@
+{
+  "name": "co-rethink-document",
+  "version": "0.1.0",
+  "description": "A Document class for RethinkDB making use of generators",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "migrate",
+    "test": "mocha --harmony --reporter nyan",
+    "posttest": "migrate down"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:2gathr/co-rethink-document.git"
+  },
+  "author": "Robert Schütz <rschuetz17@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "co-mocha": "^1.1.0",
+    "migrate": "^0.2.0",
+    "mocha": "^2.2.1",
+    "co-bcryptjs": "^0.2.0"
+  },
+  "dependencies": {
+    "lodash": "^3.6.0",
+    "rethinkdbdash": "^1.16.13"
+  }
+}
