@@ -1,6 +1,6 @@
 {
   "name": "rethought",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Document class for RethinkDB making use of generators",
   "main": "index.js",
   "scripts": {
